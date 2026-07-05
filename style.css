@@ -14,15 +14,6 @@ body{
     line-height:1.5;
 }
 
-/* Main Window */
-
-.container{
-    background:#D4D0C8;
-    max-width:900px;
-    width:100%;
-    margin:auto;
-    border:2px outset #FFFFFF;
-}
 
 /* Blue Title Bar */
 
@@ -32,6 +23,7 @@ header{
     padding:8px 12px;
     font-weight:bold;
     font-size:18px;
+    border-bottom:1px solid black;
 }
 
 /* Navigation */
@@ -42,23 +34,6 @@ nav{
     gap:8px;
     padding:10px;
     border-bottom:1px solid gray;
-}
-
-button{
-    background:#C0C0C0;
-    border:2px outset white;
-    padding:8px 16px;
-    cursor:pointer;
-    font-size:14px;
-    font-family:inherit;
-}
-
-button:hover{
-    background:#DCDCDC;
-}
-
-button:active{
-    border:2px inset white;
 }
 
 /* Tables */
@@ -72,24 +47,6 @@ td,th{
     border:1px solid gray;
     padding:8px;
     text-align:left;
-}
-
-/* Article */
-
-.article{
-    background:white;
-    margin:15px;
-    padding:15px;
-    border:2px inset gray;
-}
-
-.article h2{
-    font-family:"Times New Roman",serif;
-    margin-bottom:10px;
-}
-
-.article p{
-    margin-bottom:12px;
 }
 
 /* Links */
@@ -107,33 +64,20 @@ a:visited{
 img{
     max-width:100%;
     height:auto;
-    border:1px solid gray;
+    
 }
 
 /* Footer */
 
 footer{
-    border-top:1px solid gray;
+    border-top:1px solid black;
     padding:12px;
-    font-size:12px;
+    font-size:18px;
+    background:#000080
+    color:white
 }
-
-/* Mobile */
 
 @media(max-width:600px){
-
-header{
-    font-size:18px;
-}
-
-button{
-    width:100%;
-}
-
-.article{
-    margin:10px;
-}
-
 body{
     padding:8px;
 }
@@ -141,7 +85,7 @@ body{
 
 display:block;
 
-background:white;
+background:#000080;
 
 margin:15px;
 
@@ -151,7 +95,7 @@ border:2px outset white;
 
 text-decoration:none;
 
-color:black;
+color:white;
 
 transition:.15s;
 
@@ -180,6 +124,23 @@ margin-bottom:8px;
 .article-box p{
 
 margin-bottom:8px;
+
+}
+    button{
+
+    background:#C00000;
+
+    color:black;
+
+    border:2px outset #E00000;
+
+    padding:8px 16px;
+
+}
+
+button:active{
+
+    border:2px inset #E00000;
 
 }
 
