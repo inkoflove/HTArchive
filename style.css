@@ -23,7 +23,7 @@ header{
     padding:8px 12px;
     font-weight:bold;
     font-size:18px;
-    border-bottom:1px solid black;
+    border-bottom:3px white;
 }
 
 /* Navigation */
@@ -65,8 +65,8 @@ footer{
     border-top:1px solid black;
     padding:12px;
     font-size:18px;
-    background:#000080
-    color:white
+    background:red;
+    color:black 
 }
 
 @media(max-width:600px){
