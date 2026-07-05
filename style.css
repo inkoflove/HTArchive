@@ -1,0 +1,186 @@
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#C0C0C0;
+    color:#000;
+    font-family:"MS Sans Serif",Arial,sans-serif;
+    padding:15px;
+    line-height:1.5;
+}
+
+/* Main Window */
+
+.container{
+    background:#D4D0C8;
+    max-width:900px;
+    width:100%;
+    margin:auto;
+    border:2px outset #FFFFFF;
+}
+
+/* Blue Title Bar */
+
+header{
+    background:#000080;
+    color:white;
+    padding:8px 12px;
+    font-weight:bold;
+    font-size:18px;
+}
+
+/* Navigation */
+
+nav{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    padding:10px;
+    border-bottom:1px solid gray;
+}
+
+button{
+    background:#C0C0C0;
+    border:2px outset white;
+    padding:8px 16px;
+    cursor:pointer;
+    font-size:14px;
+    font-family:inherit;
+}
+
+button:hover{
+    background:#DCDCDC;
+}
+
+button:active{
+    border:2px inset white;
+}
+
+/* Tables */
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+td,th{
+    border:1px solid gray;
+    padding:8px;
+    text-align:left;
+}
+
+/* Article */
+
+.article{
+    background:white;
+    margin:15px;
+    padding:15px;
+    border:2px inset gray;
+}
+
+.article h2{
+    font-family:"Times New Roman",serif;
+    margin-bottom:10px;
+}
+
+.article p{
+    margin-bottom:12px;
+}
+
+/* Links */
+
+a{
+    color:#0000EE;
+}
+
+a:visited{
+    color:#551A8B;
+}
+
+/* Images */
+
+img{
+    max-width:100%;
+    height:auto;
+    border:1px solid gray;
+}
+
+/* Footer */
+
+footer{
+    border-top:1px solid gray;
+    padding:12px;
+    font-size:12px;
+}
+
+/* Mobile */
+
+@media(max-width:600px){
+
+header{
+    font-size:18px;
+}
+
+button{
+    width:100%;
+}
+
+.article{
+    margin:10px;
+}
+
+body{
+    padding:8px;
+}
+  .article-box{
+
+display:block;
+
+background:white;
+
+margin:15px;
+
+padding:15px;
+
+border:2px outset white;
+
+text-decoration:none;
+
+color:black;
+
+transition:.15s;
+
+}
+
+.article-box:hover{
+
+background:#EFEFEF;
+
+}
+
+.article-box:active{
+
+border:2px inset white;
+
+}
+
+.article-box h2{
+
+font-family:"Times New Roman",serif;
+
+margin-bottom:8px;
+
+}
+
+.article-box p{
+
+margin-bottom:8px;
+
+}
+
+}
