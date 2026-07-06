@@ -110,13 +110,16 @@ border:2px inset white;
 font-family:"Times New Roman",serif;
 
 margin-bottom:8px;
+    overflow: hidden; 
+    font-size:20px;
 
 }
 
 .article-box p{
 
 margin-bottom:8px;
-
+font-size:15px;
+    overflow: hidden;
 }
     button{
 
